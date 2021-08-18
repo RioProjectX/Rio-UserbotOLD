@@ -9,7 +9,7 @@ RUN pip install --upgrade pip setuptools
 WORKDIR /root/userbot
 
 #Install python requirements
-RUN pip3 install -r https://raw.githubusercontent.com/RioProjectX/RIO-UBOT/RIO-UBOT/requirements.txt
+RUN pip3 install -r https://raw.githubusercontent.com/RioProjectX/Rio-Userbot/Rio-Userbot/requirements.txt
 
 EXPOSE 80 443
 
