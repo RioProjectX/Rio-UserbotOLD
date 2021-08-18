@@ -1,4 +1,7 @@
-<h1 align="center"><img src="./resources/extras/kenn.gif" width="20px">    RIO - UBOT    <img src="./resources/extras/kenn.gif" width="20px"></h1>
+<h1 align="center"><img src="./resources/extras/kenn.gif" width="20px">    RIO - USERBOT    <img src="./resources/extras/kenn.gif" width="20px"></h1>
+    
+
+![RIO UBOT Logo](https://telegra.ph/file/bf0f71c6a3da0e96c5547.jpg)
 
 <p align="center">
     <a href="https://github.com/RioProjectX/Rio-Userbot/commits/Rio-Userbot"><img src="https://img.shields.io/github/last-commit/RioProjectX/Rio-Userbot?color=ff0000&logo=github&logoColor=ffffff&style=for-the-badge" /></a>
@@ -6,9 +9,6 @@
     <a href="https://pypi.org/project/Telethon/"><img src="https://img.shields.io/pypi/v/telethon?color=important&label=telethon&logo=python&logoColor=brightgreen&style=for-the-badge" /></a>
     <img alt="PYTHON" src="https://img.shields.io/badge/PYTHON-v3.9.6-purple?style=for-the-badge&logo=appveyor"/>
     </p>
-    
-
-![RIO UBOT Logo](https://telegra.ph/file/bf0f71c6a3da0e96c5547.jpg)
 
 ## Disclaimer
 
