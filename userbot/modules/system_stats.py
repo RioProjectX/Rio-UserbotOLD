@@ -228,7 +228,7 @@ async def amireallyalive(alive):
     user = await bot.get_me()
     await get_readable_time((time.time() - StartTime))
     output = (
-        f"\n__**{RIO USERBOT}**__\n"
+        f"__**RIO - USERBOT**__ \n"
         f"**╭───────────────────**\n"
         f"**├[• 🌚 Owner** \n"
         f"├[•   : `{DEFAULTUSER}` \n"
@@ -265,7 +265,7 @@ async def amireallyalive(alive):
     await bot.get_me()
     await get_readable_time((time.time() - StartTime))
     output = (
-        f"**𝐓𝐇𝐄 𝐊𝐄𝐍 - 𝐔𝐁𝐎𝐓**\n"
+        f"**𝐓𝐇𝐄 RIO - 𝐔SERBOT**\n"
         f"▰▱▰▱▰▱▰▱▰▱▰▱▰▱▰▱ \n"
         f"➣ 🤴 • `ᴏᴡɴᴇʀ    :`[RIO](t.me/riio00) \n"
         f"➣ 🖥️ • `ꜱʏꜱᴛᴇᴍ.   :`Ubuntu 20.10 \n"
