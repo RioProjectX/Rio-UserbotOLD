@@ -37,3 +37,4 @@ Repo Yang Dibuat Oleh [Rio](https://t.me/riio00) Dari beberapa Repo Yang Ada Di 
 
 ⚡ **THANK YOU VERY MUCH FOR**
 *   [Kennedy](https://github.com/KennedyProject/KEN-UBOT)    Ken - Userbot
+*   [Rio](https://github.com/RioProjectX/Rio-Userbot) Rio - Userbot
