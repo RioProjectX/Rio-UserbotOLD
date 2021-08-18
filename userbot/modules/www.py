@@ -81,6 +81,7 @@ async def redis(pong):
                     f"**          ⚡ 𝐍 𝐄 𝐓 𝐖 𝐎 𝐑 𝐊 ⚡** \n"
                     f"**   ▰▱▰▱▰▱▰▱▰▱▰▱** \n"
                     f"**        ❉ ꜱɪɢɴᴀʟ  :** `%sms` \n"
+                                ★ Rio Userbot
                     f"**        ❉ ᴏᴡɴᴇʀ   :** `{ALIVE_NAME}` \n"
                     f"**╰━━━━━━━━━━━━━━━━━╯** \n" % (duration))
 
@@ -206,7 +207,7 @@ async def speedtst(spd):
                    f"`{result['ping']}` \n"
                    "✧ **ISP:** "
                    f"`{result['client']['isp']}` \n"
-                   "✧ **BOT:**𝐊𝐄𝐍-𝐔𝐁𝐎𝐓")
+                   "✧ **BOT:**RIO-USERBOT")
 
 
 def speed_convert(size):
