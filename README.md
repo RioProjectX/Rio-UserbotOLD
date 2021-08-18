@@ -25,7 +25,7 @@ Repo Yang Dibuat Oleh [Rio](https://t.me/riio00) Dari beberapa Repo Yang Ada Di 
 
 ### Generate String Using Replit⤵️
 
-[![RIO-UBOT-STRING](https://replit.com/@RioProjectX/stringen-1?v=1)
+[![RIO-UBOT-STRING]!](https://replit.com/@RioProjectX/stringen-1?v=1)
 
 
 ## DEPLOY TO HEROKU <img src="./resources/extras/Kenpurple.gif" width="40px">
