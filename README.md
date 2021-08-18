@@ -25,11 +25,11 @@ Repo Yang Dibuat Oleh [Rio](https://t.me/riio00) Dari beberapa Repo Yang Ada Di 
 
 ### Generate String Using Replit⤵️
 
-[![RIO-UBOT-STRING](https://replit.com/badge/github/@KennedyProject/KEN-UBOT)](https://replit.com/@KennedyProject/KEN-UBOT-STRING)
+[![RIO-UBOT-STRING](https://replit.com/@RioProjectX/stringen-1?v=1)
 
 
 ## DEPLOY TO HEROKU <img src="./resources/extras/Kenpurple.gif" width="40px">
-<p align="center"><a href="https://heroku.com/deploy?template=https://github.com/RioProjectX/RIO-UBOT/tree/RIO-UBOT"> <img src="https://img.shields.io/badge/Deploy%20To%20Heroku-purple?style=flat&logo=heroku" width="250" height="38.60" /></a></p>
+<p align="center"><a href="https://heroku.com/deploy?template=https://github.com/RioProjectX/Rio-Userbot/tree/Rio-Userbot"> <img src="https://img.shields.io/badge/Deploy%20To%20Heroku-purple?style=flat&logo=heroku" width="250" height="38.60" /></a></p>
 
 
   <b>© Credits</b></summary>
