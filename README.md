@@ -10,8 +10,14 @@
 
 ![RIO UBOT Logo](https://telegra.ph/file/bf0f71c6a3da0e96c5547.jpg)
 
-<h3 align="center">KEN USERBOT DIBUAT KARENA ISENG DOANG.</h3>
-<p align="center">&nbsp;</p>
+## Disclaimer
+
+```
+Saya tidak bertanggung jawab atas penyalahgunaan bot ini.
+Bot ini dimaksudkan untuk bersenang-senang sekaligus membantu Anda
+mengelola grup secara efisien dan mengotomatiskan beberapa hal yang membosankan.
+Gunakan bot ini dengan risiko Anda sendiri, dan gunakan dengan bijak.
+```
 
 ### Repo Rio Userbot
 Repo Yang Dibuat Oleh [Rio](https://t.me/riio00) Dari beberapa Repo Yang Ada Di Github. 
