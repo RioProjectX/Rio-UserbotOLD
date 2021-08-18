@@ -1,7 +1,7 @@
 {
-  "name": "KEN-UBOT",
-  "description": "[KEN-UBOT] USERBOT KHUSUS YANG DIGUNAKAN UNTUK BERMAIN DI TELEGRAM.",
-  "logo": "https://telegra.ph/file/9cf8933ad10f520fc72e2.jpg",
+  "name": "Rio-Userbot",
+  "description": "[Rio-Userbot] Userbot Pintar Yang Dapat Mempermudah Anda Di Telegram.",
+  "logo": "https://telegra.ph/file/bf0f71c6a3da0e96c5547.jpg",
   "keywords": [
     "telegram",
     "userbot",
@@ -9,9 +9,9 @@
     "modular",
     "productivity"
   ],
-  "repository": "https://github.com/KennedyProject/KEN-UBOT",
-  "telegram": "https://t.me/xgothboi",
-  "success_url": "https://t.me/KennedyProject",
+  "repository": "https://github.com/RioProjectX/Rio-Userbot",
+  "telegram": "https://t.me/riio00",
+  "success_url": "https://t.me/RioBotSupport",
   "stack": "container",
   "env": {
     "API_KEY": {
@@ -164,7 +164,7 @@
     },
     "DEFAULT_BIO": {
       "description": "Default Bio Mu.",
-      "value": "KEN-UBOT",
+      "value": "RIO-USERBOT",
       "required": false
     },
     "ALIVE_NAME": {
