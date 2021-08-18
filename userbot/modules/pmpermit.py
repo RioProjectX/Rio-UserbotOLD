@@ -3,8 +3,8 @@
 # Licensed under the Raphielscape Public License, Version 1.c (the "License");
 # you may not use this file except in compliance with the License.
 
-# Fixes By Dev KEN-UBOT
-# From KEN-UBOT
+# Fixes By Dev RIO-UBOT
+# From RIO-UBOT
 """Userbot module for keeping control who PM you."""
 
 from userbot.events import register
@@ -45,7 +45,7 @@ CUSTOM_TEXT = str(
 DEF_UNAPPROVED_MSG = (
     f" __{CUSTOM_TEXT}__ \n"
     f" **Owner :** {DEFAULTUSER} \n"
-    f" **Support KEN-UBOT** ⚡ ")
+    f" **Support RIO-UBOT** ⚡ ")
 # =================================================================
 
 
