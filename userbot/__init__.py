@@ -109,9 +109,9 @@ GITHUB_ACCESS_TOKEN = os.environ.get("GITHUB_ACCESS_TOKEN", None)
 # Custom (forked) repo URL for updater.
 UPSTREAM_REPO_URL = os.environ.get(
     "UPSTREAM_REPO_URL",
-    "https://github.com/KennedyProject/KEN-UBOT")
+    "https://github.com/RioProjectX/Rio-Userbot")
 UPSTREAM_REPO_BRANCH = os.environ.get(
-    "UPSTREAM_REPO_BRANCH", "KEN-UBOT")
+    "UPSTREAM_REPO_BRANCH", "Rio-Userbot")
 
 # Console verbose logging
 CONSOLE_LOGGER_VERBOSE = sb(os.environ.get("CONSOLE_LOGGER_VERBOSE", "False"))
@@ -196,7 +196,7 @@ ZIP_DOWNLOAD_DIRECTORY = os.environ.get("ZIP_DOWNLOAD_DIRECTORY", "./zips")
 BITLY_TOKEN = os.environ.get("BITLY_TOKEN", None)
 
 # Bot Name
-TERM_ALIAS = os.environ.get("TERM_ALIAS", "KEN-UBOT")
+TERM_ALIAS = os.environ.get("TERM_ALIAS", "RIO-UBOT")
 
 # Bot Version
 BOT_VER = os.environ.get("BOT_VER", "5.0")
@@ -209,11 +209,11 @@ S_PACK_NAME = os.environ.get("S_PACK_NAME", None)
 
 # Default .alive Logo
 ALIVE_LOGO = os.environ.get(
-    "ALIVE_LOGO") or "https://telegra.ph/file/fa26128e9d48d18263724.png"
+    "ALIVE_LOGO") or "https://telegra.ph/file/bf0f71c6a3da0e96c5547.jpg"
 
 # Default .helpme Logo
 INLINE_PIC = os.environ.get(
-    "INLINE_PIC") or "https://telegra.ph/file/279f1de82747019cb0b62.jpg"
+    "INLINE_PIC") or "https://telegra.ph/file/bf0f71c6a3da0e96c5547.jpg"
 
 # Last.fm Module
 BIO_PREFIX = os.environ.get("BIO_PREFIX", None)
@@ -355,7 +355,7 @@ with bot:
 
 
 async def check_alive():
-    await bot.send_message(BOTLOG_CHATID, "**𝐊𝐄𝐍-𝐔𝐁𝐎𝐓** `Has Been Activated Master!`")
+    await bot.send_message(BOTLOG_CHATID, "**RIO-𝐔SERBOT** `Has Been Activated Master!`")
     return
 
 with bot:
@@ -457,7 +457,7 @@ with bot:
                     buttons=[
                         [
                             Button.url("ᴛᴜᴛᴏʀɪᴀʟ ᴜsᴇʀʙᴏᴛ​",
-                                       "https://t.me/KennedyProject")],
+                                       "https://t.me/siiniaja")],
                     ]
                 )
 
@@ -470,11 +470,11 @@ with bot:
                     buttons=[
                         [
                             Button.url("Cʜᴀɴɴᴇʟ Uᴘᴅᴀᴛᴇ​",
-                                       "t.me/KennedyProject"),
+                                       "t.me/RioBotSupport"),
                             Button.url("Gʀᴏᴜᴘ Sᴜᴘᴘᴏʀᴛ",
-                                       "t.me/kenbotsupport")],
+                                       "t.me/siiniaja")],
                         [Button.url("Dᴇᴠᴇʟᴏᴘᴇʀ​",
-                                    "t.me/xgothboi")],
+                                    "t.me/Riio00")],
                     ]
                 )
 
@@ -485,9 +485,9 @@ with bot:
                 await event.message.get_sender()
                 text = (
                     f"**Hello** [{get_display_name(u)}](tg://user?id={u.id}) **Is Its Alive Bot**\n\n"
-                    f"       令 𝐊𝐄𝐍-𝐔𝐁𝐎𝐓 令 \n"
+                    f"       令 RIO-𝐔SERBOT 令 \n"
                     "▰▱▰▱▰▱▰▱▰▱▰▱\n"
-                    f"      ⚡ I'ᴍ Aʟɪᴠᴇ​ ⚡ \n"
+                    f"      ⚡ Online ⚡ \n"
                     "▰▱▰▱▰▱▰▱▰▱▰▱ \n"
                     f"`Pengguna  :` [{get_display_name(u)}](tg://user?id={u.id}) \n"
                     f"`Branch    :` {UPSTREAM_REPO_BRANCH} \n"
@@ -504,10 +504,10 @@ with bot:
                                               [
                                                   custom.Button.url(
                                                       text="Rᴇᴘᴏ",
-                                                      url="https://github.com/KennedyProject/KEN-UBOT"),
+                                                      url="https://github.com/RioProjectX/Rio-Userbot"),
                                                   custom.Button.url(
                                                       text="Lɪsᴇɴsɪ​",
-                                                      url="https://github.com/KennedyProject/KEN-UBOT/blob/KEN-UBOT/LICENSE"
+                                                      url="https://github.com/RioProjectX/Rio-Userbot/blob/Rio-Userbot/LICENSE"
                                                   )
                                               ]
                                           ]
@@ -546,7 +546,7 @@ with bot:
             result = None
             query = event.text
             if event.query.user_id == uid and query.startswith(
-                    "@KenProject"):
+                    "@riobotsupport"):
                 buttons = paginate_help(0, dugmeler, "helpme")
                 result = builder.photo(
                     file=kenlogo,
@@ -558,25 +558,25 @@ with bot:
                 )
             elif query.startswith("tb_btn"):
                 result = builder.article(
-                    "Bantuan Dari 𝐊𝐄𝐍-𝐔𝐁𝐎𝐓 ",
+                    "Bantuan Dari RIO-𝐔SERBOT ",
                     text="Daftar Plugins",
                     buttons=[],
                     link_preview=True)
             else:
                 result = builder.article(
                     " Alive\n Check Alive Stats! ",
-                    text=f"""__**The KEN-UBOT**__\n`Pong!!` `{ms}ms`\n**Master :** {DEFAULTUSER} """,
+                    text=f"""__**The RIO-USERBOT**__\n`Pong!!` `{ms}ms`\n**Master :** {DEFAULTUSER} """,
                     buttons=[
                         [
                             custom.Button.url(
                                 "ʀᴇᴘᴏ​",
-                                "https://github.com/KennedyProject/KEN-UBOT"),
+                                "https://github.com/RioProjectX/Rio-Userbot"),
                             custom.Button.url(
                                 "ᴄʜᴀɴɴᴇʟ​​",
-                                "t.me/KennedyProject")],
+                                "t.me/riobotsupport")],
                         [custom.Button.url(
                             "ᴅᴇᴠ​",
-                            "t.me/xgothboi")]],
+                            "t.me/riio00")]],
                     link_preview=False,
                 )
             await event.answer([result] if result else None)
@@ -604,7 +604,7 @@ with bot:
             )
         )
         async def on_plug_in_callback_query_handler(event):
-            if event.query.user_id == uid:  # @KenProject
+            if event.query.user_id == uid:  # @riobotsupport
                 # https://t.me/TelethonChat/115200
                 await event.edit(
                     file=kenlogo,
@@ -612,9 +612,9 @@ with bot:
                     buttons=[
                         [
                             Button.url("Cʜᴀɴɴᴇʟ Uᴘᴅᴀᴛᴇ​",
-                                       "t.me/KennedyProject"),
+                                       "t.me/riobotsupport"),
                             Button.url("Gʀᴏᴜᴘ Sᴜᴘᴘᴏʀᴛ",
-                                       "t.me/kenbotsupport")],
+                                       "t.me/siiniaja")],
                         [Button.inline("Open Menu", data="open")],
                         [custom.Button.inline(
                             "Cʟᴏsᴇ", b"close")],
