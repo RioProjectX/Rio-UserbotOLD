@@ -79,8 +79,8 @@ async def carbon_api(e):
     await e.client.send_file(
         e.chat_id,
         file,
-        caption="Made By [Kennedy](https://t.me/xgothboi),\
-        \na project by [Grup Spam](https://t.me/zeusspam)",
+        caption="Made By [Rio](https://t.me/riio00),\
+        \na project by [Grup Suport](https://t.me/siiniaja)",
         force_document=True,
         reply_to=e.message.reply_to_msg_id,
     )
@@ -145,8 +145,8 @@ async def carbon_api(e):
     await e.client.send_file(
         e.chat_id,
         file,
-        caption="Made By [Kennedy](https://t.me/xgothboi),\
-        \na project by [Grup Spam](https://t.me/zeusspam)",
+        caption="Made By [Rio](https://t.me/riio00),\
+        \na project by [Grup Suport](https://t.me/siiniaja)",
         force_document=True,
         reply_to=e.message.reply_to_msg_id,
     )
@@ -277,8 +277,8 @@ async def carbon_api(e):
     await e.client.send_file(
         e.chat_id,
         file,
-        caption="Made By [Kennedy](https://t.me/xgothboi),\
-        \na project by [Grup Spam](https://t.me/zeusspam)",
+        caption="Made By [Rio](https://t.me/riio00),\
+        \na project by [Grup Suport](https://t.me/siiniaja)",
         force_document=True,
         reply_to=e.message.reply_to_msg_id,
     )
@@ -343,7 +343,7 @@ async def carbon_api(e):
     await e.client.send_file(
         e.chat_id,
         file,
-        caption="Made By [Kennedy](https://t.me/riio00),\
+        caption="Made By [Rio](https://t.me/riio00),\
         \na project by [Grup Support](https://t.me/siiniaja)",
         force_document=True,
         reply_to=e.message.reply_to_msg_id,
