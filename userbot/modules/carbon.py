@@ -38,7 +38,7 @@ async def carbon_api(e):
     elif textx:
         pcode = str(textx.message)  # Importing message to module
     code = quote_plus(pcode)  # Converting to urlencoded
-    await e.edit("`Processing..\n25%`")
+    await e.edit("`Proses..\n25%`")
     if os.path.isfile("/root/userbot/.bin/carbon.png"):
         os.remove("/root/userbot/.bin/carbon.png")
     url = CARBON.format(code=code, lang=CARBONLANG)
@@ -54,7 +54,7 @@ async def carbon_api(e):
     driver = webdriver.Chrome(executable_path=CHROME_DRIVER,
                               options=chrome_options)
     driver.get(url)
-    await e.edit("`Processing..\n50%`")
+    await e.edit("`Proses..\n50%`")
     download_path = '/root/userbot/.bin'
     driver.command_executor._commands["send_command"] = (
         "POST", '/session/$sessionId/chromium/send_command')
@@ -73,7 +73,7 @@ async def carbon_api(e):
     # Waiting for downloading
     while not os.path.isfile("/root/userbot/.bin/carbon.png"):
         await sleep(0.5)
-    await e.edit("`Processing..\n100%`")
+    await e.edit("`Proses..\n100%`")
     file = '/root/userbot/.bin/carbon.png'
     await e.edit("`Uploading..`")
     await e.client.send_file(
@@ -211,8 +211,8 @@ async def carbon_api(e):
     await e.client.send_file(
         e.chat_id,
         file,
-        caption="Made By [Kennedy](https://t.me/xgothboi),\
-        \na project by [Grup Spam](https://t.me/zeusspam)",
+        caption="Made By [Rio Cute](https://t.me/riio00),\
+        \na project by [Grup Support](https://t.me/siiniaja)",
         force_document=True,
         reply_to=e.message.reply_to_msg_id,
     )
@@ -343,8 +343,8 @@ async def carbon_api(e):
     await e.client.send_file(
         e.chat_id,
         file,
-        caption="Made By [Kennedy](https://t.me/xgothboi),\
-        \na project by [Grup Spam](https://t.me/zeusspam)",
+        caption="Made By [Kennedy](https://t.me/riio00),\
+        \na project by [Grup Support](https://t.me/siiniaja)",
         force_document=True,
         reply_to=e.message.reply_to_msg_id,
     )
