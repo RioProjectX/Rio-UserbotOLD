@@ -45,7 +45,7 @@ CUSTOM_TEXT = str(
 DEF_UNAPPROVED_MSG = (
     f" __{CUSTOM_TEXT}__ \n"
     f" **Owner :** {DEFAULTUSER} \n"
-    f" **Support RIO-UBOT** ⚡ ")
+    f" **Support Rio-Userbot** ⚡ ")
 # =================================================================
 
 
