@@ -29,13 +29,13 @@ async def typewriter(typew):
     await typew.edit("**MAU SAMPE KAPAN PUN GUA BAKALAN LADENIN LU GOBLOK, LADENIN MANUSIA PURBA JELEK KEK LU GABAKALAN BERENTI GUA TOLOL NI YE GUA SARANIN MENDING LU APUS TELE DAH KONTOL.**")
 
 
-@register(outgoing=True, pattern='^.yesus(?: |$)(.*)')
+@register(outgoing=True, pattern='^.rio(?: |$)(.*)')
 async def typewriter(typew):
     typew.pattern_match.group(1)
     sleep(1)
-    await typew.edit("**ANDA TAU SEBERAPA BAIKNYA YESUS?**")
+    await typew.edit("**RIO AAAAAAA MWAHH**")
     sleep(2)
-    await typew.edit("**YESUS TERAMAT TULUS SAMPAI JADI TUKANG PIJIT PLUS PLUS YANG MELAYANI UMATNYA.**")
+    await typew.edit("**MWMWMWWMWMEMEMEMMEME MEMEK!! .**")
 
 
 @register(outgoing=True, pattern='^.buddha(?: |$)(.*)')
@@ -55,7 +55,7 @@ async def typewriter(typew):
     await typew.edit("**ANEH BANGET DAH TU AGAMA CUIHHH!!!!**")
 
 
-@register(outgoing=True, pattern='^.erpe(?: |$)(.*)')
+@register(outgoing=True, pattern='^.rp(?: |$)(.*)')
 async def typewriter(typew):
     typew.pattern_match.group(1)
     sleep(1)
@@ -117,11 +117,11 @@ CMD_HELP.update({
 \n↳ : Coba Aja Sendiri.\
 \n\n𝘾𝙤𝙢𝙢𝙖𝙣𝙙: `.stress`\
 \n↳ : Coba Aja Sendiri.\
-\n\n𝘾𝙤𝙢𝙢𝙖𝙣𝙙: `.erpe`\
+\n\n𝘾𝙤𝙢𝙢𝙖𝙣𝙙: `.rp`\
 \n↳ : Coba Aja Sendiri.\
 \n\n𝘾𝙤𝙢𝙢𝙖𝙣𝙙: `.buddha`\
 \n↳ : Coba Aja Sendiri.\
-\n\n𝘾𝙤𝙢𝙢𝙖𝙣𝙙: `.yesus`\
+\n\n𝘾𝙤𝙢𝙢𝙖𝙣𝙙: `.rio`\
 \n↳ : Coba Aja Sendiri.\
 \n\n𝘾𝙤𝙢𝙢𝙖𝙣𝙙: `.biksu`\
 \n↳ : Coba Aja Sendiri.\
