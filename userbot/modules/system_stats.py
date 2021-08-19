@@ -164,8 +164,8 @@ async def bot_ver(event):
         revout = str(stdout.decode().strip()) + str(stderr.decode().strip())
 
         await event.edit(
-            "**⚜-**RIO-UBOT Versi:** \n "
-            f"heads/KEN-UBOT-0-x634i7u1"
+            "**⚜-**Rio-Userbot Versi:** \n "
+            f"heads/Rio-Userbot-0-x634i7u1"
             "\n**⚜-**Revisi:**\n "
             f"{revout}"
         )
@@ -267,14 +267,14 @@ async def amireallyalive(alive):
     output = (
         f"**𝐓𝐇𝐄 RIO - 𝐔SERBOT**\n"
         f"▰▱▰▱▰▱▰▱▰▱▰▱▰▱▰▱ \n"
-        f"➣ 🤴 • `ᴏᴡɴᴇʀ    :`[RIO](t.me/riio00) \n"
+        f"➣ 🤴 • `ᴏᴡɴᴇʀ    :`[Rio](t.me/riio00) \n"
         f"➣ 🖥️ • `ꜱʏꜱᴛᴇᴍ.   :`Ubuntu 20.10 \n"
         f"➣ ⚙️ • `ᴛᴇʟᴇᴛʜᴏɴ  :`v.{version.__version__} \n"
         f"➣ 🐍 • `ᴘʏᴛʜᴏɴ.   :`v.{python_version()} \n"
         f"➣ 👾 • `ʙᴏᴛ      :`v.{BOT_VER} \n"
         f"➣ 📂 • `ᴍᴏᴅᴜʟᴇ   :`{len(modules)} \n"
         f"▰▱▰▱▰▱▰▱▰▱▰▱▰▱▰▱ \n"
-        f"🔧 : [REPO-RIO](https://github.com/RioProjectX/Rio-Userbot)\n👥 : [Group Support](t.me/siiniaja)\n👤 : [OWNER](t.me/riio00)\n"
+        f"🔧 : [Repo Rio-Ubot](https://github.com/RioProjectX/Rio-Userbot)\n👥 : [Group Support](t.me/siiniaja)\n👤 : [OWNER](t.me/riio00)\n"
     )
     if ALIVE_LOGO:
         try:
@@ -316,7 +316,7 @@ async def redis(alive):
         f"┣  `Branch   :` {UPSTREAM_REPO_BRANCH} \n"
         f"┣  `Bot Ver  :` {BOT_VER} \n"
         f"┣  `Modules  :` {len(modules)} Modules \n"
-        f"┣  `Github   :` [Userbot](https://github.com/Rio-Userbot) \n"
+        f"┣  `Github   :` [RioUserbot](https://github.com/Rio-Userbot) \n"
         f"┗━━━━━━━━━━━━━━━━━━━")
     if ALIVE_LOGO:
         try:
