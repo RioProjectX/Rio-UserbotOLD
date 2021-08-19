@@ -130,7 +130,7 @@ async def dyno_usage(dyno):
     """
         Get your account Dyno Usage
     """
-    await dyno.edit("```Checking dynos ⚡```")
+    await dyno.edit("```Mengecek Dyno ⚡```")
     await asyncio.sleep(1)
     useragent = (
         'Mozilla/5.0 (Linux; Android 10; SM-G975F) '
@@ -182,7 +182,7 @@ async def dyno_usage(dyno):
 
             await dyno.edit(
                 f"╭┈─╼━━━━━━━━━━━━━━╾─┈╮ \n"
-                f"│ㅤㅤㅤㅤ⚡**𝐊𝐄𝐍-𝐔𝐁𝐎𝐓**⚡ \n"
+                f"│ㅤㅤㅤㅤ⚡**RIO-𝐔SER𝐁𝐎𝐓**⚡ \n"
                 f"╭┈─╼━━━━━━━━━━━━━━╾─┈╮ \n"
                 f"│◈ **Dyno usage this month :** \n"
                 f"│◈ {AppHours} jam - {AppMinutes} menit \n"
