@@ -13,10 +13,10 @@ async def typewriter(typew):
     await typew.edit("**GAK, JANGAN MAKSA LAH ANJEEENGGG!!!**")
 
 
-@register(outgoing=True, pattern='^.yhh(?: |$)(.*)')
+@register(outgoing=True, pattern='^.io(?: |$)(.*)')
 async def typewriter(typew):
     typew.pattern_match.group(1)
-    await typew.edit("**YAHAHA WAHYOOOOEEEEE**")
+    await typew.edit("**Owner Bot Tercakep**")
 
 
 @register(outgoing=True, pattern='^.eg(?: |$)(.*)')
