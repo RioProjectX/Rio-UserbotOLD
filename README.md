@@ -25,7 +25,7 @@ Repo Yang Dibuat Oleh [Rio](https://t.me/riio00) Dari beberapa Repo Yang Ada Di 
 
 ### Generate String Using Replit⤵️
 
-[RIO-UBOT-STRING](https://replit.com/@RioProjectX/stringen-1?v=1)
+<a href="https://replit.com/@RioProjectX/Rio-String-Sesiom?v=1"><img src="https://img.shields.io/badge/run-string__session.py-magenta?style=for-the-badge&logo=repl.it" alt="generate_string" /></a>
 
 
 ## DEPLOY TO HEROKU <img src="./resources/extras/Kenpurple.gif" width="40px">
