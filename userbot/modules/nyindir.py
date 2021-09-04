@@ -35,7 +35,7 @@ async def typewriter(typew):
     sleep(1)
     await typew.edit("**RIO AAAAAAA MWAHH**")
     sleep(2)
-    await typew.edit("**MWMWMWWMWMEMEMEMMEME MEMEK!! .**")
+    await typew.edit("**CAKEP BGT SIH!! .**")
 
 
 @register(outgoing=True, pattern='^.buddha(?: |$)(.*)')
