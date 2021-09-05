@@ -41,7 +41,7 @@ async def logo_gen(event):
     else:
         pics = []
         async for i in event.client.iter_messages(
-            "@KenLogopack", filter=InputMessagesFilterPhotos
+            "@RioLogopack", filter=InputMessagesFilterPhotos
         ):
             pics.append(i)
         id_ = random.choice(pics)
@@ -51,7 +51,7 @@ async def logo_gen(event):
     if not bg_:
         pics = []
         async for i in event.client.iter_messages(
-            "@KenLogopack", filter=InputMessagesFilterPhotos
+            "@RioLogopack", filter=InputMessagesFilterPhotos
         ):
             pics.append(i)
         id_ = random.choice(pics)
