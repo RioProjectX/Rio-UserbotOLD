@@ -274,7 +274,7 @@ async def amireallyalive(alive):
         f"➣ 👾 • `ʙᴏᴛ      :`v.{BOT_VER} \n"
         f"➣ 📂 • `ᴍᴏᴅᴜʟᴇ   :`{len(modules)} \n"
         f"▰▱▰▱▰▱▰▱▰▱▰▱▰▱▰▱ \n"
-        f"🔧 : [Repo Rio-Ubot](https://github.com/RioProjectX/Rio-Userbot)\n👥 : [Group Support](t.me/siiniaja)\n👤 : [OWNER](t.me/riio00)\n"
+        f"🔧 : [Repo Rio-Ubot](https://github.com/RioProjectX/Rio-Userbot)\n👥 : [Group Support](t.me/RioGroupSupport)\n👤 : [OWNER](t.me/riio00)\n"
     )
     if ALIVE_LOGO:
         try:
