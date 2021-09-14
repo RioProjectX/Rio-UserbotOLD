@@ -112,7 +112,7 @@ async def repo_is_here(wannasee):
     await wannasee.edit(
         "**Hey**, I am using **RIO-𝐔𝐁𝐎𝐓** \n"
         "➣ **Repo :** [Github](https://github.com/RioProjectX/Rio-Userbot)\n"
-        "➣ **Owner :** [Rio](t.me/riio00)"
+        "➣ **Owner :** [Grup Suport](t.me/RioGroupSupport)"
     )
 
 
