@@ -444,7 +444,7 @@ CMD_HELP.update({
 \n↳ : Mengaktifkan/menonaktifkan modul ninja regex secara global.\
 \nModul Regex Ninja membantu menghapus pesan pemicu bot regex.\
 \n\n𝘾𝙤𝙢𝙢𝙖𝙣𝙙: `.chatinfo [opsional: <reply/tag/chat id/invite link>]`\
-\n↳ : Mendapatkan info obrolan. Beberapa info mungkin dibatasi karena izin yang hilang..\
+\n↳ : Mendapatkan info obrolan. Beberapa info mungkin dibatasi karna izin yang hilang..\
 \n\n𝘾𝙤𝙢𝙢𝙖𝙣𝙙: `.invite` \
 \n↳ : Menambahkan pengguna ke obrolan, bukan ke pesan pribadi. "
 })
