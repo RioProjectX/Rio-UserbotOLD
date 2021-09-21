@@ -171,8 +171,8 @@
       "description": "Nama untuk menunjukan pesan .alive",
       "required": false
     },
-    "KEN_TEKS_KUSTOM": {
-      "description": "Kustom Pesan Alive Mu Untuk Perintah .kenalive (Isi Terserah)",
+    "RIO_TEKS_KUSTOM": {
+      "description": "Kustom Pesan Alive Mu Untuk Perintah .rioalive (Isi Terserah)",
       "required": false
     },
     "S_PACK_NAME": {
@@ -227,11 +227,11 @@
       "required": false
     },
     "BOT_TOKEN": {
-      "description": "Set this to enable inline bot helper. get the token from @BotFather",
+      "description": "Set this to enable inline bot helper. get the token from @BotFather  (tidak usah di isi kalau tidak paham)",
       "required": false
     },
     "BOT_USERNAME": {
-      "description": "Username of the bot you created with @BotFather",
+      "description": "Username of the bot you created with @BotFather (tidak usah di isi kalau tidak paham)",
       "required": false
     }
   },
