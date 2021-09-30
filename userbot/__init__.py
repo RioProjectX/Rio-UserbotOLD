@@ -355,7 +355,7 @@ with bot:
 
 
 async def check_alive():
-    await bot.send_message(BOTLOG_CHATID, "**RIO-𝐔SERBOT** `Has Been Activated Master!`")
+    await bot.send_message(BOTLOG_CHATID, "**RIO-𝐔SERBOT** `Berhasil Diaktifkan , Kalo Gabisa .ping Cek View log nya ya!`")
     return
 
 with bot:
@@ -472,7 +472,7 @@ with bot:
                             Button.url("Cʜᴀɴɴᴇʟ Uᴘᴅᴀᴛᴇ​",
                                        "t.me/RioBotSupport"),
                             Button.url("Gʀᴏᴜᴘ Sᴜᴘᴘᴏʀᴛ",
-                                       "t.me/siiniaja")],
+                                       "t.me/riogroupsupport")],
                         [Button.url("Dᴇᴠᴇʟᴏᴘᴇʀ​",
                                     "t.me/Riio00")],
                     ]
