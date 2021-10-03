@@ -78,9 +78,9 @@ async def logo_gen(event):
     y = (image_height - h) / 2
     draw.text((x, y), name, font=font, fill="white",
               stroke_width=strke, stroke_fill="black")
-    flnme = f"geez.png"
+    flnme = f"rio.png"
     img.save(flnme, "png")
-    await xx.edit("`Done!`")
+    await xx.edit("`Berhasil Membuat Logo!`")
     if os.path.exists(flnme):
         await event.client.send_file(
             event.chat_id,
