@@ -457,7 +457,7 @@ with bot:
                     buttons=[
                         [
                             Button.url("ᴛᴜᴛᴏʀɪᴀʟ ᴜsᴇʀʙᴏᴛ​",
-                                       "https://t.me/siiniaja")],
+                                       "https://t.me/riogroupsupport")],
                     ]
                 )
 
@@ -474,7 +474,7 @@ with bot:
                             Button.url("Gʀᴏᴜᴘ Sᴜᴘᴘᴏʀᴛ",
                                        "t.me/riogroupsupport")],
                         [Button.url("Dᴇᴠᴇʟᴏᴘᴇʀ​",
-                                    "t.me/Riio00")],
+                                    "t.me/fckualot")],
                     ]
                 )
 
@@ -532,7 +532,7 @@ with bot:
         async def on_plug_in_callback_query_handler(event):
             current_page_number = int(lockpage)
             buttons = paginate_help(current_page_number, plugins, "helpme")
-            text = f"\n**Usᴇʀʙᴏᴛ​ Tᴇʟᴇɢʀᴀᴍ​**\n\n **Mᴀsᴛᴇʀ​** {DEFAULTUSER}\n\n** Bʀᴀɴᴄʜ :** __𝐊𝐄𝐍-𝐔𝐁𝐎𝐓__\n** Vᴇʀsɪ :** `v5.0`\n** Pʟᴜɢɪɴs :** `{len(plugins)}`\n"
+            text = f"\n**Usᴇʀʙᴏᴛ​ Tᴇʟᴇɢʀᴀᴍ​**\n\n **Mᴀsᴛᴇʀ​** {DEFAULTUSER}\n\n** Bʀᴀɴᴄʜ :** __RIO-𝐔𝐁𝐎𝐓__\n** Vᴇʀsɪ :** `v5.0`\n** Pʟᴜɢɪɴs :** `{len(plugins)}`\n"
             await event.edit(
                 text,
                 file=kenlogo,
@@ -551,7 +551,7 @@ with bot:
                 result = builder.photo(
                     file=kenlogo,
                     link_preview=False,
-                    text=f"\n**Usᴇʀʙᴏᴛ​ Tᴇʟᴇɢʀᴀᴍ​**\n\n **Mᴀsᴛᴇʀ​** {DEFAULTUSER}\n\n** Bʀᴀɴᴄʜ :** __𝐊𝐄𝐍-𝐔𝐁𝐎𝐓__\n** Vᴇʀsɪ :** `v5.0`\n** Pʟᴜɢɪɴs :** `{len(plugins)}`\n".format(
+                    text=f"\n**Usᴇʀʙᴏᴛ​ Tᴇʟᴇɢʀᴀᴍ​**\n\n **Mᴀsᴛᴇʀ​** {DEFAULTUSER}\n\n** Bʀᴀɴᴄʜ :** __RIO-𝐔𝐁𝐎𝐓__\n** Vᴇʀsɪ :** `v5.0`\n** Pʟᴜɢɪɴs :** `{len(plugins)}`\n".format(
                         len(dugmeler),
                     ),
                     buttons=buttons,
@@ -576,7 +576,7 @@ with bot:
                                 "t.me/riobotsupport")],
                         [custom.Button.url(
                             "ᴅᴇᴠ​",
-                            "t.me/riio00")]],
+                            "t.me/FCKUALOT")]],
                     link_preview=False,
                 )
             await event.answer([result] if result else None)
@@ -614,7 +614,7 @@ with bot:
                             Button.url("Cʜᴀɴɴᴇʟ Uᴘᴅᴀᴛᴇ​",
                                        "t.me/riobotsupport"),
                             Button.url("Gʀᴏᴜᴘ Sᴜᴘᴘᴏʀᴛ",
-                                       "t.me/siiniaja")],
+                                       "t.me/riogroupsupport")],
                         [Button.inline("Open Menu", data="open")],
                         [custom.Button.inline(
                             "Cʟᴏsᴇ", b"close")],
