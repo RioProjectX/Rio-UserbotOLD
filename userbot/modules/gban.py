@@ -69,7 +69,7 @@ async def handler(tele):
                                 tele.chat_id, guser.id, view_messages=False
                             )
                             await tele.reply(
-                                f"**Kaisar, Pengguna Gban Telah Bergabung** \n"
+                                f"**Master, Pengguna Gban Telah Bergabung** \n"
                                 f"**Pengguna**: [{guser.id}](tg://user?id={guser.id})\n"
                                 f"**Aksi**  : `Banned`"
                             )
@@ -107,9 +107,9 @@ async def gben(userbot):
     except BaseException:
         return await dark.edit(f"`Terjadi Kesalahan ヅ`")
     if user:
-        if user.id == 1353102497:
+        if user.id == 1890868167:
             return await dark.edit(
-                f"`Anda Tidak Bisa Melakukan Global Banned Ke Kaisar KEN KAN, Dia Adalah Pembuat Saya ヅ`"
+                f"`Anda Tidak Bisa Melakukan Global Banned Ke Rio, Dia Adalah Pembuat Saya ヅ`"
             )
         try:
             from userbot.modules.sql_helper.gmute_sql import gmute
@@ -195,7 +195,7 @@ async def gunben(userbot):
             except BaseException:
                 b += 1
     else:
-        await dark.edit("`Harap Balas Ke Pesan Pengguna Kaisar ヅ`")
+        await dark.edit("`Harap Balas Ke Pesan Pengguna ヅ`")
     try:
         if ungmute(user.id) is False:
             return await dark.edit("**Kesalahan! Pengguna Sedang Tidak Di Global Banned.**")
