@@ -64,9 +64,9 @@ async def gspide(rk):
     sender = await lazy.get_sender()
     me = await lazy.client.get_me()
     if not sender.id == me.id:
-        rkp = await lazy.reply("`processing...`")
+        rkp = await lazy.reply("`Processing...`")
     else:
-        rkp = await lazy.edit("`processing...`")
+        rkp = await lazy.edit("`Processing...`")
     me = await rk.client.get_me()
     await rkp.edit(f"`{ALIVE_NAME}:` **Requesting to global kick user!**")
     my_mention = "[{}](tg://user?id={})".format(me.first_name, me.id)
