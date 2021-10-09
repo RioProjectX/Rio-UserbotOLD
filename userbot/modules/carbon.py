@@ -28,7 +28,7 @@ async def setlang(prog):
 @register(outgoing=True, pattern="^.carbon1")
 async def carbon_api(e):
     """ A Wrapper for carbon.now.sh """
-    await e.edit("`Processing..`")
+    await e.edit("`Memproses..`")
     CARBON = 'https://carbon.now.sh/?bg=rgba(249%2C237%2C212%2C0)&t=synthwave-84&wt=none&l=application%2Fjson&ds=true&dsyoff=20px&dsblur=0px&wc=true&wa=true&pv=56px&ph=0px&ln=false&fl=1&fm=IBM%20Plex%20Mono&fs=14.5px&lh=153%25&si=false&es=4x&wm=false&code={code}'
     global CARBONLANG
     textx = await e.get_reply_message()
@@ -343,8 +343,8 @@ async def carbon_api(e):
     await e.client.send_file(
         e.chat_id,
         file,
-        caption="Made By [Rio](https://t.me/riio00),\
-        \na project by [Grup Support](https://t.me/siiniaja)",
+        caption="Made By [OWNER_NAME](https://t.me/OWNER_NAME),\
+        \na project by [Grup Support](https://t.me/Riogroupsupport)",
         force_document=True,
         reply_to=e.message.reply_to_msg_id,
     )
