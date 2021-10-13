@@ -1,5 +1,3 @@
-# THANKS FULL FOR GEEZ PROJECT
-
 import glob
 import os
 import random
