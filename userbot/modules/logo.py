@@ -15,10 +15,11 @@ DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else uname().node
 
 @register(outgoing=True, pattern="^.logo(?: |$)(.*)")
 async def logo_gen(event):
-    xx = await event.edit("`Membuat Logomu.....`")
+    kontol = await event.client.get_me()
+    xx = await event.edit("`Membuat logo...`")
     name = event.pattern_match.group(1)
     if not name:
-        await xx.edit("`Berikan Text Untuk Membuat Logo!`")
+        await xx.edit("`Ketik text yang akan dijadikan logo!`")
     bg_, font_ = "", ""
     if event.reply_to_msg_id:
         temp = await event.get_reply_message()
@@ -33,7 +34,7 @@ async def logo_gen(event):
     else:
         pics = []
         async for i in event.client.iter_messages(
-            "@GeezLogo", filter=InputMessagesFilterPhotos
+            "@KenLogopack", filter=InputMessagesFilterPhotos
         ):
             pics.append(i)
         id_ = random.choice(pics)
@@ -43,7 +44,7 @@ async def logo_gen(event):
     if not bg_:
         pics = []
         async for i in event.client.iter_messages(
-            "@GeezLogo", filter=InputMessagesFilterPhotos
+            "@KenLogopack", filter=InputMessagesFilterPhotos
         ):
             pics.append(i)
         id_ = random.choice(pics)
@@ -76,15 +77,15 @@ async def logo_gen(event):
     y = (image_height - h) / 2
     draw.text((x, y), name, font=font, fill="white",
               stroke_width=strke, stroke_fill="black")
-    flnme = f"rio.png"
+    flnme = f"knbot.png"
     img.save(flnme, "png")
-    await xx.edit("`Berhasil Membuat Logo!`")
+    await xx.edit("`Selesai!`")
     if os.path.exists(flnme):
         await event.client.send_file(
             event.chat_id,
             file=flnme,
-            caption=f"Logo by {DEFAULTUSER}",
-            force_document=True,
+            caption=f"Logo by [{DEFAULTUSER}](tg://user?id={kontol.id})",
+            force_document=False,
         )
         os.remove(flnme)
         await xx.delete()
@@ -95,5 +96,5 @@ async def logo_gen(event):
             os.remove(font_)
 
 
-CMD_HELP.update({"logo": "𝘾𝙤𝙢𝙢𝙖𝙣𝙙: `.logo <text>`"
-                 "\n↳ : Hasilkan logo dari Teks atau Balas Ke gambar yang diberikan, untuk menulis teks Anda di atasnya. Atau Balas Ke File Font, Untuk menulis dengan font itu."})
+CMD_HELP.update({"logo": "Cmd: `.logo <text>`"
+                 "\n↳ : Hasilkan logo dari Teks."})
