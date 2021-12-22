@@ -1,5 +1,5 @@
 ## DEPLOY KE RIO USERBOT NEW
-* Deploy Kesini [Deploy](https://github.com/rioprojectx/rio-userbotnew)
+## Deploy Kesini [Deploy](https://github.com/rioprojectx/rio-userbot)
 
 
 
